@@ -43,7 +43,7 @@ async def help_user(bot, update):
         reply_to_message_id=update.message_id
     )
 
-
+'''
 @pyrogram.Client.on_message(pyrogram.filters.command(["me"]))
 async def get_me_info(bot, update):
     # logger.info(update)
@@ -56,17 +56,7 @@ async def get_me_info(bot, update):
         disable_web_page_preview=True,
     )
 
-
-@pyrogram.Client.on_message(pyrogram.filters.command(["starting"]))
-async def start(bot, update):
-    # logger.info(update)
-    await update.reply(f"<b>Hii {update.chat.first_name}!</b>\nThis is a Telegram Multipurpose Bot Which can do many functions. /help for more details...  ",reply_markup=InlineKeyboardMarkup(
-            [
-                    InlineKeyboardButton('JOIN', url='https://t.me/codexmania')
-                ]
-        )
-    )
-      
+'''
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["upgrade"]))
 async def upgrade(bot, update):
