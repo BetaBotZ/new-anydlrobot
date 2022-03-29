@@ -1,5 +1,7 @@
 ## INSPIRED FROM [ANYDL BOT](https://t.me/anydlbot)
 
+### COPY WITH CREDITS
+
 #### The Easy Way
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
