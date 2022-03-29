@@ -1,4 +1,4 @@
-from os 
+import os 
 
 
 class Config(object):
