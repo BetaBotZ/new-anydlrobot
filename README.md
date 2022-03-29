@@ -1,4 +1,4 @@
-## INSPIRED FROM [ANYDL BOT](https://t.me/anydlbot)
+## INSPIRED FROM [ANYDL BOT](https://t.me/any_dl_x_bot)
 
 ### COPY WITH CREDITS
 
@@ -41,6 +41,7 @@ unzip- unzip
 
 
 ## CODE REDESIGNED BY [Adarsh Goel](https://github.com/adarsh-goel)<br><br>
+### Thanks to [@SpEcHiDe](https://github.com/spechide) for the base code
 #### LICENSE
 - GPLv3
 
