@@ -38,6 +38,7 @@ tsh - upload to transfer sh<br>
 me- my info<br>
 ren- rename files<br>
 del_thumb - clear custom thumbnail<br>
+unzip- unzip
 
 
 ## CODE REDESIGNED BY [Adarsh Goel](https://github.com/adarsh-goel)<br><br>
