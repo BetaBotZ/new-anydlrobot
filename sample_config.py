@@ -1,6 +1,4 @@
-from os import getenv, environ
-from dotenv import load_dotenv
-load_dotenv()
+from os 
 
 
 class Config(object):
