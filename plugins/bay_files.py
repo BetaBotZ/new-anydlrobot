@@ -38,11 +38,11 @@ async def get_link(bot, update):
         await bot.delete_messages(
             chat_id=update.chat.id,
             message_ids=update.message_id,
-            revoke=False
+            revoke=True
         )
         return
     logger.info(update.from_user)
-    if update.reply_to_message is  None:
+    if update.reply_to_message is not None:
         reply_message = update.reply_to_message
         ybcd = random_char(5)
         download_location = Config.DOWNLOAD_LOCATION + "/" + f"{ybcd}" + "/"
