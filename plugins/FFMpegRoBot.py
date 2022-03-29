@@ -30,21 +30,6 @@ from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 
 
-@pyrogram.Client.on_message(pyrogram.filters.command(["ffmpegrobot"]))
-async def ffmpegrobot_ad(bot, update):
-    if update.from_user.id  in Config.BANNED_USERS:
-        await bot.delete_messages(
-            chat_id=update.chat.id,
-            message_ids=update.message_id,
-            revoke=True
-        )
-        return
-    await bot.send_message(
-        chat_id=update.chat.id,
-        text=Translation.FF_MPEG_RO_BOT_AD_VER_TISE_MENT,
-        disable_web_page_preview=True,
-        reply_to_message_id=update.message_id
-    )
 
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["trim"]))
