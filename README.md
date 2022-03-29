@@ -23,7 +23,6 @@ help-ask for help <br>
 go -upload to gofiles <br>
 anon -upload to anonfiles<br>
 bay-upload to bayfiles<br>
-ffmpegrobot-  check it<br>
 trim -trim the video<br>
 storage -storage data<br>
 clearffmpegmedia - clear ffmpeg media<br>
