@@ -41,7 +41,7 @@ async def trim(bot, update):
             revoke=True
         )
         return
-    saved_file_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".FFMpegRoBot.mkv"
+    saved_file_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".AGProjects.mkv"
     if os.path.exists(saved_file_path):
         a = await bot.send_message(
             chat_id=update.chat.id,
@@ -156,7 +156,7 @@ async def storage_info(bot, update):
             revoke=True
         )
         return
-    saved_file_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".FFMpegRoBot.mkv"
+    saved_file_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".AGProjects.mkv"
     if os.path.exists(saved_file_path):
         metadata = extractMetadata(createParser(saved_file_path))
         duration = None
@@ -185,7 +185,7 @@ async def clear_media(bot, update):
             revoke=True
         )
         return
-    saved_file_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".FFMpegRoBot.mkv"
+    saved_file_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".AGProjects.mkv"
     if os.path.exists(saved_file_path):
         os.remove(saved_file_path)
     await bot.send_message(
@@ -204,7 +204,7 @@ async def download_media(bot, update):
             revoke=True
         )
         return
-    saved_file_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".FFMpegRoBot.mkv"
+    saved_file_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".AGProjects.mkv"
     if not os.path.exists(saved_file_path):
         a = await bot.send_message(
             chat_id=update.chat.id,
