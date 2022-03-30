@@ -87,7 +87,7 @@ async def generate_screen_shot(bot, update):
             media_album_p = []
             if images is not None:
                 i = 0
-                caption = "Join : @TGBotsCollection \nFor the list of Telegram Bots"
+                caption = "Join : @AGProjects \nFor the list of Our Telegram Bots"
                 for image in images:
                     if os.path.exists(image):
                         if i == 0:
