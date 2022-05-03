@@ -7,7 +7,7 @@
 
 #### The Easy Way
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/adarsh-goel/anydl)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BetaBotZ/new-anydlrobot)
 
 #### The Hard Way
 
