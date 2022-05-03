@@ -50,7 +50,7 @@ Telegram ID : <code>{}</code>
    
 4.) check other commands by  typing a /
 
-Bot Powered by: @adarsh_goel"""
+Bot Powered by: @OO7ROBOT """
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
