@@ -10,6 +10,7 @@ psutil
 tgcrypto
 
 git+https://github.com/BetaBotZ/ytdlx
+YouTube_dl
 
 #git+https://github.com/code-x-mania/yt-new-dl.git
 #git+https://github.com/code-x-mania/yt-new-dlp.git
