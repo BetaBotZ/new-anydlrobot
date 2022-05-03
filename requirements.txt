@@ -9,7 +9,7 @@ requests
 psutil
 tgcrypto
 
-git+https://github.com/TgRenameBot/12345.git
+git+https://github.com/BetaBotZ/ytdlx
 
 #git+https://github.com/code-x-mania/yt-new-dl.git
 #git+https://github.com/code-x-mania/yt-new-dlp.git
