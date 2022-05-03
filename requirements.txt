@@ -9,7 +9,7 @@ requests
 psutil
 tgcrypto
 
-yt-dlp
+git+https://github.com/TgRenameBot/12345.git
 
 #git+https://github.com/code-x-mania/yt-new-dl.git
 #git+https://github.com/code-x-mania/yt-new-dlp.git
