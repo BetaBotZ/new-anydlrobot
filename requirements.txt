@@ -9,7 +9,7 @@ requests
 psutil
 tgcrypto
 
-yt_dlp
+yt-dlp
 
 #git+https://github.com/code-x-mania/yt-new-dl.git
 #git+https://github.com/code-x-mania/yt-new-dlp.git
