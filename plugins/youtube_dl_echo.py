@@ -57,6 +57,9 @@ async def echo(bot, update):
         except Exception:
             await update.reply_text("Something Wrong. Contact my Support Group")
             return
+          
+    imog = await update.reply_text("__AnalyZing Your Link__ ...⏳", reply_to_message_id=update.message_id)
+    
     logger.info(update.from_user)
     url = update.text
     youtube_dl_username = None
@@ -101,7 +104,7 @@ async def echo(bot, update):
                 url = url[o:o + l]
     if Config.HTTP_PROXY != "":
         command_to_exec = [
-            "youtube-dl",
+            "yt-dlp",
             "--no-warnings",
             "--youtube-skip-dash-manifest",
             "-j",
@@ -110,7 +113,7 @@ async def echo(bot, update):
         ]
     else:
         command_to_exec = [
-            "youtube-dl",
+            "yt-dlp",
             "--no-warnings",
             "--youtube-skip-dash-manifest",
             "-j",
@@ -310,6 +313,7 @@ async def echo(bot, update):
             )
         ])
         reply_markup = InlineKeyboardMarkup(inline_keyboard)
+        await imog.delete(True)
         await bot.send_message(
             chat_id=update.chat.id,
             text=Translation.FORMAT_SELECTION.format(""),
